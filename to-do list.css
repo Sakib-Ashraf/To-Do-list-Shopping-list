@@ -1,0 +1,84 @@
+body {
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  color: rgba(0, 0, 0, .5);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  font-family: 'fira sans', Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(90deg, #005AA7, #FFFDE4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 90%;
+  height: auto;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.input, .list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-h1 {
+  padding: 6px 15px;
+  margin: 2rem 2rem 3rem 2rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+li {
+  min-height: 2rem;
+  margin: .1rem;
+  padding: .05rem;
+  box-sizing: border-box;
+  list-style: lower-roman;
+  color: rgba(0, 0, 0, .5);
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 1rem;
+}
+input {
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, .5);
+  padding: 0.5rem 1rem;
+  color: rgba(0, 0, 0, .5);
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: auto;
+  text-align: center;
+}
+#enter{
+  background-color: rgb(37, 243, 147);
+  color: black;
+}
+button {
+  display: inline-block;
+  background-color: rgb(255, 60, 60);
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  color: aliceblue;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+.done {
+  text-decoration: line-through;
+  text-decoration-color: aliceblue;
+}
