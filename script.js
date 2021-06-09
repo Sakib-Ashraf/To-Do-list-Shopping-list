@@ -41,7 +41,7 @@ function addItemAfterKeypress(event) {
 //// DONE TOGGLER
 
 function toggler(event) {
-	event.target.classlist.toggle("done");
+	event.target.classList.toggle("done");
 }
 
 

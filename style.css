@@ -38,6 +38,9 @@ body {
   font-weight: 700;
   text-align: center;
 }
+ul{
+  padding: 0px;
+}
 li {
   min-height: 2rem;
   margin: .1rem;
